@@ -3,7 +3,7 @@ cask "s3lock" do
   name "s3lock"
   desc "s3lock is a locking command using S3."
   homepage "https://github.com/winebarrel/s3lock"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "s3lock" do
   on_macos do
     on_intel do
       url "https://github.com/winebarrel/s3lock/releases/download/v#{version}/s3lock_#{version}_darwin_amd64.tar.gz"
-      sha256 "0f5bef029d109d6bd9615bba195f8e9ca427f13d556827cb1a6b769e6486054d"
+      sha256 "c35c50024682688df41e1fd1a879d1a857c10354e9a5973ad7c83b3aa5d177c3"
     end
     on_arm do
       url "https://github.com/winebarrel/s3lock/releases/download/v#{version}/s3lock_#{version}_darwin_arm64.tar.gz"
-      sha256 "96c9c1fee54bf8d7b9b5aaab3268078824d079cfbb798eb9f229f4b7ffa2f32b"
+      sha256 "373cbbb4e326535f6111c24468bb3c23164bad5f0fa6832ad21bce9c2223884e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/winebarrel/s3lock/releases/download/v#{version}/s3lock_#{version}_linux_amd64.tar.gz"
-      sha256 "a30919a5641d7ca5c5ee3716de5c164441f17a70ecadb62ef9f9b3fe9e5cf1be"
+      sha256 "efddf96c5960495e2cd991a3ef0291a564838784875c1d86c95b41b173f84cee"
     end
     on_arm do
       url "https://github.com/winebarrel/s3lock/releases/download/v#{version}/s3lock_#{version}_linux_arm64.tar.gz"
-      sha256 "b6cf02bc74483ff3ae93223e51b7cfcc7662aa6287e23f7656d579329d2d5451"
+      sha256 "92bcdfd6b5fddd982f150bd22b9c9ef15a23539167211e12b13ada117db8078d"
     end
   end
 
